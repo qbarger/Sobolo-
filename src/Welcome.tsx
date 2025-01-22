@@ -28,21 +28,33 @@ function Welcome() {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="..." className="d-block w-100" alt="..."></img>
+            <img
+              src="/PlanetImages/Sun.jpg"
+              className="d-block w-100"
+              alt="Image of the Sun."
+            ></img>
             <div className="carousel-caption d-none d-md-block">
               <h5>THE SUN</h5>
               <p>Info about the Sun.</p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src="..." className="d-block w-100" alt="..."></img>
+            <img
+              src="/PlanetImages/Mercury.jpg"
+              className="d-block w-100"
+              alt="Image of Mercury."
+            ></img>
             <div className="carousel-caption d-none d-md-block">
               <h5>Mercury</h5>
               <p>Info about Mercury.</p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src="..." className="d-block w-100" alt="..."></img>
+            <img
+              src="/PlanetImages/Venus.jpg"
+              className="d-block w-100"
+              alt="Image of Venus."
+            ></img>
             <div className="carousel-caption d-none d-md-block">
               <h5>Venus</h5>
               <p>Info about Venus.</p>
