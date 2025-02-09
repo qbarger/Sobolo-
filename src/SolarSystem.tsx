@@ -1,9 +1,8 @@
-import "./App.css";
+import "./Solar.css";
 
 function SolarSystem() {
   return (
     <>
-      <div id="solardivider"></div>
       <div className="solarsystem">
         <div id="Sun"></div>
         <div id="Mercury"></div>

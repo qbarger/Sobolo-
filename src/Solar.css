@@ -11,6 +11,7 @@
   position: absolute;
   margin-left: 50%;
   border-radius: 50%;
+  margin-top: 23%;
 }
 #Mercury {
   background-color: rgb(201, 187, 177);
@@ -18,7 +19,7 @@
   height: 5px;
   border-radius: 50%;
   position: absolute;
-  margin-top: 1%;
+  margin-top: 24%;
   margin-left: 51%;
   animation: GFGMerc 7.23s infinite linear;
 }
@@ -32,7 +33,7 @@
   height: 8px;
   border-radius: 50%;
   position: absolute;
-  margin-top: 1%;
+  margin-top: 24%;
   margin-left: 51%;
   animation: GFGVen 18.455s infinite linear;
 }
@@ -42,7 +43,7 @@
   height: 8px;
   border-radius: 50%;
   position: absolute;
-  margin-top: 1%;
+  margin-top: 24%;
   margin-left: 51%;
   animation: GFGEarth 30s infinite linear;
 }
@@ -52,7 +53,7 @@
   height: 5px;
   border-radius: 50%;
   position: absolute;
-  margin-top: 1%;
+  margin-top: 24%;
   margin-left: 51%;
   animation: GFGMars 56.424s infinite linear;
 }
@@ -66,7 +67,7 @@
   height: 18px;
   border-radius: 50%;
   position: absolute;
-  margin-top: 1%;
+  margin-top: 24%;
   margin-left: 51%;
   animation: GFGJup 355.8s infinite linear;
 }
@@ -76,7 +77,7 @@
   height: 12px;
   border-radius: 50%;
   position: absolute;
-  margin-top: 1%;
+  margin-top: 24%;
   margin-left: 51%;
   box-shadow: 0 1px 0 1px #987641, 3px 1px 0 #987641, -3px 1px 0 #987641;
   animation: GFGSat 883.8s infinite linear;
@@ -88,7 +89,7 @@
   height: 10px;
   border-radius: 50%;
   position: absolute;
-  margin-top: 1%;
+  margin-top: 24%;
   margin-left: 51%;
   animation: GFGUra 2520.3s infinite linear;
 }
@@ -98,7 +99,7 @@
   height: 10px;
   border-radius: 50%;
   position: absolute;
-  margin-top: 1%;
+  margin-top: 24%;
   margin-left: 51%;
   animation: GFGNep 4943.7s infinite linear;
 }
@@ -181,5 +182,13 @@ body {
 }
 
 #solardivider {
-  margin-top: 22%;
+  margin-top: 24%;
+}
+
+#solarsystem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 24%;
 }
