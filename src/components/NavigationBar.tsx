@@ -16,15 +16,15 @@ function NavigationBar() {
               <Nav.Link href="/about">About</Nav.Link>
               <Nav.Link href="/solarsystem">SolarSystem</Nav.Link>
               <NavDropdown title="Explore" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/social">The Sun</NavDropdown.Item>
-                <NavDropdown.Item href="/social">Mercury</NavDropdown.Item>
-                <NavDropdown.Item href="/social">Venus</NavDropdown.Item>
-                <NavDropdown.Item href="/social">Earth</NavDropdown.Item>
-                <NavDropdown.Item href="/social">Mars</NavDropdown.Item>
-                <NavDropdown.Item href="/social">Jupiter</NavDropdown.Item>
-                <NavDropdown.Item href="/social">Saturn</NavDropdown.Item>
-                <NavDropdown.Item href="/social">Uranus</NavDropdown.Item>
-                <NavDropdown.Item href="/social">Neptune</NavDropdown.Item>
+                <NavDropdown.Item href="/sun">The Sun</NavDropdown.Item>
+                <NavDropdown.Item href="/mercury">Mercury</NavDropdown.Item>
+                <NavDropdown.Item href="/venus">Venus</NavDropdown.Item>
+                <NavDropdown.Item href="/earth">Earth</NavDropdown.Item>
+                <NavDropdown.Item href="/mars">Mars</NavDropdown.Item>
+                <NavDropdown.Item href="/jupiter">Jupiter</NavDropdown.Item>
+                <NavDropdown.Item href="/saturn">Saturn</NavDropdown.Item>
+                <NavDropdown.Item href="/uranus">Uranus</NavDropdown.Item>
+                <NavDropdown.Item href="/neptune">Neptune</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>

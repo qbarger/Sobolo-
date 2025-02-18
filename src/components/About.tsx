@@ -1,4 +1,4 @@
-import "./Page.css";
+import "../styling/Page.css";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 function About() {
@@ -36,7 +36,7 @@ function About() {
       <div className="social-container">
         <div className="social-links">
           <a
-            href="https://github.com/qbarger?tab=repositories"
+            href="https://github.com/qbarger"
             target="_blank"
             rel="noopener noreferrer"
           >

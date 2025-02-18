@@ -1,4 +1,4 @@
-import "./Solar.css";
+import "../styling/Solar.css";
 
 function SolarSystem() {
   return (

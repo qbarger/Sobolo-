@@ -246,7 +246,7 @@ function Welcome() {
 export default Welcome;
 
 */
-import "./Page.css";
+import "../styling/Page.css";
 
 function Welcome() {
   return (
