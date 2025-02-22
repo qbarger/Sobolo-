@@ -9,7 +9,7 @@ function About() {
         <br></br>
         <br></br>
         <img
-          src="./OtherImages/QuentonPlant.jpg"
+          src="./OtherImages/QuentonPlant.webp"
           alt="Quenton Barger"
           className="rounded-circle"
         ></img>

@@ -8,7 +8,7 @@ function Neptune() {
     <>
       <div className="Sun">
         <br />
-        <StatsCard imageSrc="./PlanetImages/Neptune.jpg" cardText={text} />
+        <StatsCard imageSrc="./PlanetImages/Neptune.webp" cardText={text} />
         <br />
       </div>
     </>

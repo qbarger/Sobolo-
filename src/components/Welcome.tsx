@@ -35,15 +35,15 @@ function Welcome() {
       </div>
       <div className="carousel-inner">
         {[
-          "Sun.jpg",
-          "Mercury.jpg",
-          "Venus.jpg",
-          "Earth.jpg",
-          "Mars.jpg",
-          "Jupiter.jpg",
-          "Saturn.avif",
-          "Uranus.jpg",
-          "Neptune.jpg",
+          "Sun.webp",
+          "Mercury.webp",
+          "Venus.webp",
+          "Earth.webp",
+          "Mars.webp",
+          "Jupiter.webp",
+          "Saturn.webp",
+          "Uranus.webp",
+          "Neptune.webp",
         ].map((image, index) => (
           <div
             key={image}
@@ -108,15 +108,15 @@ function Welcome() {
         </div>
         <div className="carousel-inner">
           {[
-            "Sun.jpg",
-            "Mercury.jpg",
-            "Venus.jpg",
-            "Earth.jpg",
-            "Mars.jpg",
-            "Jupiter.jpg",
+            "Sun.webp",
+            "Mercury.webp",
+            "Venus.webp",
+            "Earth.webp",
+            "Mars.webp",
+            "Jupiter.webp",
             "Saturn.avif",
-            "Uranus.jpg",
-            "Neptune.jpg",
+            "Uranus.webp",
+            "Neptune.webp",
           ].map((image, index) => (
             <div
               key={image}

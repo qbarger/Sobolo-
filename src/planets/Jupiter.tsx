@@ -8,7 +8,7 @@ function Jupiter() {
     <>
       <div className="Sun">
         <br />
-        <StatsCard imageSrc="./PlanetImages/Jupiter.jpg" cardText={text} />
+        <StatsCard imageSrc="./PlanetImages/Jupiter.webp" cardText={text} />
         <br />
       </div>
     </>
