@@ -5,12 +5,16 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: black;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  background-color: #f8f9fa;
 }
 
 a {
@@ -27,7 +31,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: black;
+  background-color: #f8f9fa;
   color: black;
 }
 
@@ -58,7 +62,7 @@ button:focus-visible {
 }
 
 p {
-  margin-bottom: 20px; /* Adds spacing between paragraphs */
+  margin-bottom: 20px; /*Adds spacing between paragraphs */
   margin-left: 20%;
   margin-right: 20%;
 }
@@ -121,15 +125,22 @@ p {
 .Sun {
   color: white;
   text-align: center;
-  margin: 5vh;
 }
 
 .card {
   width: 60rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .stats-card-text {
   white-space: pre-line;
+}
+
+.footerText {
+  text-align: center;
+  background-color: #f8f9fa;
+  margin: 0;
 }
 
 @media (prefers-color-scheme: light) {

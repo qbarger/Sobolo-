@@ -1,9 +1,9 @@
 import "../styling/Page.css";
-import StatsCard from "./statsCard/statsCard";
+import StatsCard from "../planets/statsCard/StatsCard";
 
 function Jupiter() {
   const text =
-    "Name: Mercury\n\nType: Terrestrial\n\nDiameter: 3,039.1 mi\n\nDistance from Earth: 48 million mi\n\nTemperature: -290° to 800° F\n\nMercury is the smallest planet and the closest to the Sun. It's temperature varies greatly (ranging from extremely hot during the day to extremely cold during the night) because Mercury has no atmosphere. It has the fastest orbit of any planet, completing one cycle in about 88 days.";
+    'Name: Jupiter\n\nType: Gas Giant\n\nDiameter: 86,881 mi\n\nDistance from Earth: 453.2 million mi\n\nTemperature: -166° F\n\nJupiter is the largest planet in the solar system. It\'s so big that you can fit over 1,300 Earths inside of it. Jupiter is home to a massive storm called the "Great Red Spot", which has been raging for at least 150 years. It is also the home to the largest moon in the solar system, Ganymede.';
   return (
     <>
       <div className="Sun">

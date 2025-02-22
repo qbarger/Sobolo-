@@ -1,5 +1,5 @@
 import "../styling/Page.css";
-import StatsCard from "./statsCard/statsCard";
+import StatsCard from "../planets/statsCard/StatsCard";
 
 function Sun() {
   const text =

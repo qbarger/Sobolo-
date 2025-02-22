@@ -1,9 +1,9 @@
 import "../styling/Page.css";
-import StatsCard from "./statsCard/statsCard";
+import StatsCard from "../planets/statsCard/StatsCard";
 
 function Saturn() {
   const text =
-    "Name: Mercury\n\nType: Terrestrial\n\nDiameter: 3,039.1 mi\n\nDistance from Earth: 48 million mi\n\nTemperature: -290° to 800° F\n\nMercury is the smallest planet and the closest to the Sun. It's temperature varies greatly (ranging from extremely hot during the day to extremely cold during the night) because Mercury has no atmosphere. It has the fastest orbit of any planet, completing one cycle in about 88 days.";
+    "Name: Saturn\n\nType: Gas Giant\n\nDiameter: 74,898 mi\n\nDistance from Earth: 981.44 million mi\n\nTemperature: -220° F\n\nSaturn is orbited by a ring system made of ice and rock. Saturn is the secong largest planet in the solar system, and is home to over 100 moons. It is the least dense planet, being even less dense than water! Saturn has a unique, hexagonal atmospheric feature at it's north pole consisting of six jet streams and a raging storm in the center.";
   return (
     <>
       <div className="Sun">

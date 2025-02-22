@@ -1,9 +1,9 @@
 import "../styling/Page.css";
-import StatsCard from "./statsCard/statsCard";
+import StatsCard from "../planets/statsCard/StatsCard";
 
 function Earth() {
   const text =
-    "Name: Mercury\n\nType: Terrestrial\n\nDiameter: 3,039.1 mi\n\nDistance from Earth: 48 million mi\n\nTemperature: -290° to 800° F\n\nMercury is the smallest planet and the closest to the Sun. It's temperature varies greatly (ranging from extremely hot during the day to extremely cold during the night) because Mercury has no atmosphere. It has the fastest orbit of any planet, completing one cycle in about 88 days.";
+    "Name: Earth\n\nType: Terrestrial\n\nDiameter: 7,926.2 mi\n\nDistance from the Sun: 91.965 million mi\n\nTemperature: 59° F\n\nEarth is our home. About 71% of Earth's surface is covered with water, and it is the only known planet with life. Earth has a rich atmosphere that protects us from solar radiation, and is orbited by our moon.";
   return (
     <>
       <div className="Sun">

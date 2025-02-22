@@ -1,9 +1,9 @@
 import "../styling/Page.css";
-import StatsCard from "./statsCard/statsCard";
+import StatsCard from "../planets/statsCard/StatsCard";
 
 function Neptune() {
   const text =
-    "Name: Mercury\n\nType: Terrestrial\n\nDiameter: 3,039.1 mi\n\nDistance from Earth: 48 million mi\n\nTemperature: -290° to 800° F\n\nMercury is the smallest planet and the closest to the Sun. It's temperature varies greatly (ranging from extremely hot during the day to extremely cold during the night) because Mercury has no atmosphere. It has the fastest orbit of any planet, completing one cycle in about 88 days.";
+    "Name: Neptune\n\nType: Ice Giant\n\nDiameter: 30,599 mi\n\nDistance from Earth: 2.86 billion mi\n\nTemperature: -330° F\n\nNeptune is the last planet in our solar system. The second of the ice giants, it is also the windiest planet with supersonic storms up to 1,500 miles per hour. Neptune also possesses a strong magnetic field that is believed to be about 27 times more powerful than Earth's own.";
   return (
     <>
       <div className="Sun">

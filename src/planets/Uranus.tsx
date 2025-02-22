@@ -1,9 +1,9 @@
 import "../styling/Page.css";
-import StatsCard from "./statsCard/statsCard";
+import StatsCard from "../planets/statsCard/StatsCard";
 
 function Uranus() {
   const text =
-    "Name: Mercury\n\nType: Terrestrial\n\nDiameter: 3,039.1 mi\n\nDistance from Earth: 48 million mi\n\nTemperature: -290° to 800° F\n\nMercury is the smallest planet and the closest to the Sun. It's temperature varies greatly (ranging from extremely hot during the day to extremely cold during the night) because Mercury has no atmosphere. It has the fastest orbit of any planet, completing one cycle in about 88 days.";
+    "Name: Uranus\n\nType: Ice Giant\n\nDiameter: 31,518 mi\n\nDistance from Earth: 1.83 billion mi\n\nTemperature: -320° F\n\nUranus is one of two ice giants in our solar system. It is blue-ish green in color because of the abundant methane in its atmosphere. Uranus actually rotates on its side (like a rolling ball) and holds the record for the coldest temperature in our solar system. It also has 13 rings orbiting it, but they are faint compared to Saturn's rings.";
   return (
     <>
       <div className="Sun">

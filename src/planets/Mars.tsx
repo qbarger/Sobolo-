@@ -1,9 +1,9 @@
 import "../styling/Page.css";
-import StatsCard from "./statsCard/statsCard";
+import StatsCard from "../planets/statsCard/StatsCard";
 
 function Mars() {
   const text =
-    "Name: Mercury\n\nType: Terrestrial\n\nDiameter: 3,039.1 mi\n\nDistance from Earth: 48 million mi\n\nTemperature: -290° to 800° F\n\nMercury is the smallest planet and the closest to the Sun. It's temperature varies greatly (ranging from extremely hot during the day to extremely cold during the night) because Mercury has no atmosphere. It has the fastest orbit of any planet, completing one cycle in about 88 days.";
+    'Name: Mars\n\nType: Terrestrial\n\nDiameter: 4,212.3 mi\n\nDistance from Earth: 140 million mi\n\nTemperature: -225° to 70° F\n\nMars is popularly known as "The Red Planet". It has a thin CO₂ atmosphere that is not conducive to complex life. However, Mars has many ancient riverbeds and ice caps, which point to the possibility of prior life on Mars. It is also home to the largest volcano in the solar system, Olympus Mons!';
   return (
     <>
       <div className="Sun">

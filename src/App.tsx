@@ -15,6 +15,7 @@ import Jupiter from "./planets/Jupiter";
 import Saturn from "./planets/Saturn";
 import Uranus from "./planets/Uranus";
 import Neptune from "./planets/Neptune";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -115,6 +116,7 @@ function App() {
           </Routes>
         </div>
       </BrowserRouter>
+      <Footer />
     </>
   );
 }
