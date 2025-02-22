@@ -3,7 +3,7 @@ import "../styling/Solar.css";
 function SolarSystem() {
   return (
     <>
-      <div className="solarsystem">
+      <div id="solarsystem">
         <div id="Sun"></div>
         <div id="Mercury"></div>
         <div id="Venus"></div>

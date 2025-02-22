@@ -22,99 +22,97 @@ function App() {
     <>
       <NavigationBar></NavigationBar>
       <BrowserRouter>
-        <div>
-          <Routes>
-            <Route path="/" element={<Welcome />} />
-            <Route
-              path="/solarsystem"
-              element={
-                <BlackBackgroundWrapper>
-                  <SolarSystem />
-                </BlackBackgroundWrapper>
-              }
-            />
-            <Route
-              path="/about"
-              element={
-                <WhiteBackgroundWrapper>
-                  <About />
-                </WhiteBackgroundWrapper>
-              }
-            />
-            <Route
-              path="/sun"
-              element={
-                <BlackBackgroundWrapper>
-                  <Sun />
-                </BlackBackgroundWrapper>
-              }
-            />
-            <Route
-              path="/mercury"
-              element={
-                <BlackBackgroundWrapper>
-                  <Mercury />
-                </BlackBackgroundWrapper>
-              }
-            />
-            <Route
-              path="/venus"
-              element={
-                <BlackBackgroundWrapper>
-                  <Venus />
-                </BlackBackgroundWrapper>
-              }
-            />
-            <Route
-              path="/earth"
-              element={
-                <BlackBackgroundWrapper>
-                  <Earth />
-                </BlackBackgroundWrapper>
-              }
-            />
-            <Route
-              path="/mars"
-              element={
-                <BlackBackgroundWrapper>
-                  <Mars />
-                </BlackBackgroundWrapper>
-              }
-            />
-            <Route
-              path="/jupiter"
-              element={
-                <BlackBackgroundWrapper>
-                  <Jupiter />
-                </BlackBackgroundWrapper>
-              }
-            />
-            <Route
-              path="/saturn"
-              element={
-                <BlackBackgroundWrapper>
-                  <Saturn />
-                </BlackBackgroundWrapper>
-              }
-            />
-            <Route
-              path="/uranus"
-              element={
-                <BlackBackgroundWrapper>
-                  <Uranus />
-                </BlackBackgroundWrapper>
-              }
-            />
-            <Route
-              path="/neptune"
-              element={
-                <BlackBackgroundWrapper>
-                  <Neptune />
-                </BlackBackgroundWrapper>
-              }
-            />
-          </Routes>
-        </div>
+        <Routes>
+          <Route path="/" element={<Welcome />} />
+          <Route
+            path="/solarsystem"
+            element={
+              <BlackBackgroundWrapper>
+                <SolarSystem />
+              </BlackBackgroundWrapper>
+            }
+          />
+          <Route
+            path="/about"
+            element={
+              <WhiteBackgroundWrapper>
+                <About />
+              </WhiteBackgroundWrapper>
+            }
+          />
+          <Route
+            path="/sun"
+            element={
+              <BlackBackgroundWrapper>
+                <Sun />
+              </BlackBackgroundWrapper>
+            }
+          />
+          <Route
+            path="/mercury"
+            element={
+              <BlackBackgroundWrapper>
+                <Mercury />
+              </BlackBackgroundWrapper>
+            }
+          />
+          <Route
+            path="/venus"
+            element={
+              <BlackBackgroundWrapper>
+                <Venus />
+              </BlackBackgroundWrapper>
+            }
+          />
+          <Route
+            path="/earth"
+            element={
+              <BlackBackgroundWrapper>
+                <Earth />
+              </BlackBackgroundWrapper>
+            }
+          />
+          <Route
+            path="/mars"
+            element={
+              <BlackBackgroundWrapper>
+                <Mars />
+              </BlackBackgroundWrapper>
+            }
+          />
+          <Route
+            path="/jupiter"
+            element={
+              <BlackBackgroundWrapper>
+                <Jupiter />
+              </BlackBackgroundWrapper>
+            }
+          />
+          <Route
+            path="/saturn"
+            element={
+              <BlackBackgroundWrapper>
+                <Saturn />
+              </BlackBackgroundWrapper>
+            }
+          />
+          <Route
+            path="/uranus"
+            element={
+              <BlackBackgroundWrapper>
+                <Uranus />
+              </BlackBackgroundWrapper>
+            }
+          />
+          <Route
+            path="/neptune"
+            element={
+              <BlackBackgroundWrapper>
+                <Neptune />
+              </BlackBackgroundWrapper>
+            }
+          />
+        </Routes>
       </BrowserRouter>
       <Footer />
     </>

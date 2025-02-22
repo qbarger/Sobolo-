@@ -1,28 +1,46 @@
-#Sun {
+#solarsystem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+#solarsystem::before {
+  content: "";
+  position: absolute;
+  width: 60px; /* Sun size */
+  height: 60px;
   background: radial-gradient(
     ellipse at center,
     #ffd000 1%,
     #f9b700 39%,
-    #f9b700 39%,
     #e06317 100%
   );
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin-left: 50%;
   border-radius: 50%;
-  margin-top: 23%;
+  z-index: 1; /* Make sure Sun is on top */
 }
+
+#Mercury,
+#Venus,
+#Earth,
+#Mars,
+#Jupiter,
+#Saturn,
+#Uranus,
+#Neptune {
+  position: absolute;
+  border-radius: 50%;
+}
+
 #Mercury {
   background-color: rgb(201, 187, 177);
   width: 5px;
   height: 5px;
-  border-radius: 50%;
-  position: absolute;
-  margin-top: 24%;
-  margin-left: 51%;
   animation: GFGMerc 7.23s infinite linear;
 }
+
 #Venus {
   background: radial-gradient(
     ellipse at right,
@@ -31,32 +49,23 @@
   );
   width: 8px;
   height: 8px;
-  border-radius: 50%;
-  position: absolute;
-  margin-top: 24%;
-  margin-left: 51%;
   animation: GFGVen 18.455s infinite linear;
 }
+
 #Earth {
   background: radial-gradient(ellipse at left, #0073ff, #17e02b);
   width: 8px;
   height: 8px;
-  border-radius: 50%;
-  position: absolute;
-  margin-top: 24%;
-  margin-left: 51%;
   animation: GFGEarth 30s infinite linear;
 }
+
 #Mars {
   background-color: rgb(255, 35, 35);
   width: 5px;
   height: 5px;
-  border-radius: 50%;
-  position: absolute;
-  margin-top: 24%;
-  margin-left: 51%;
   animation: GFGMars 56.424s infinite linear;
 }
+
 #Jupiter {
   background: radial-gradient(
     ellipse at center,
@@ -65,20 +74,13 @@
   );
   width: 18px;
   height: 18px;
-  border-radius: 50%;
-  position: absolute;
-  margin-top: 24%;
-  margin-left: 51%;
   animation: GFGJup 355.8s infinite linear;
 }
+
 #Saturn {
   background-color: rgb(203, 187, 105);
   width: 12px;
   height: 12px;
-  border-radius: 50%;
-  position: absolute;
-  margin-top: 24%;
-  margin-left: 51%;
   box-shadow: 0 1px 0 1px #987641, 3px 1px 0 #987641, -3px 1px 0 #987641;
   animation: GFGSat 883.8s infinite linear;
 }
@@ -87,108 +89,118 @@
   background-color: rgb(99, 226, 255);
   width: 10px;
   height: 10px;
-  border-radius: 50%;
-  position: absolute;
-  margin-top: 24%;
-  margin-left: 51%;
   animation: GFGUra 2520.3s infinite linear;
 }
+
 #Neptune {
   background-color: rgb(0, 119, 255);
   width: 10px;
   height: 10px;
-  border-radius: 50%;
-  position: absolute;
-  margin-top: 24%;
-  margin-left: 51%;
   animation: GFGNep 4943.7s infinite linear;
 }
+
+/* Keyframes for the animations with increased orbit sizes */
 @keyframes GFGMerc {
   0% {
-    transform: rotate(0deg) translateY(40px) rotate(0deg);
+    transform: rotate(0deg) translateX(60px) rotate(0deg);
   }
-
   100% {
-    transform: rotate(360deg) translateY(40px) rotate(-360deg);
+    transform: rotate(360deg) translateX(60px) rotate(-360deg);
   }
 }
+
 @keyframes GFGVen {
   0% {
-    transform: rotate(0deg) translateY(80px) rotate(0deg);
+    transform: rotate(0deg) translateX(120px) rotate(0deg);
   }
-
   100% {
-    transform: rotate(360deg) translateY(80px) rotate(-360deg);
+    transform: rotate(360deg) translateX(120px) rotate(-360deg);
   }
 }
+
 @keyframes GFGEarth {
   0% {
-    transform: rotate(0deg) translateY(110px) rotate(0deg);
+    transform: rotate(0deg) translateX(160px) rotate(0deg);
   }
-
   100% {
-    transform: rotate(360deg) translateY(110px) rotate(-360deg);
+    transform: rotate(360deg) translateX(160px) rotate(-360deg);
   }
 }
+
 @keyframes GFGMars {
   0% {
-    transform: rotate(0deg) translateY(150px) rotate(0deg);
+    transform: rotate(0deg) translateX(220px) rotate(0deg);
   }
-
   100% {
-    transform: rotate(360deg) translateY(150px) rotate(-360deg);
+    transform: rotate(360deg) translateX(220px) rotate(-360deg);
   }
 }
+
 @keyframes GFGJup {
   0% {
-    transform: rotate(0deg) translateY(200px) rotate(0deg);
+    transform: rotate(0deg) translateX(270px) rotate(0deg);
   }
-
   100% {
-    transform: rotate(360deg) translateY(200px) rotate(-360deg);
+    transform: rotate(360deg) translateX(270px) rotate(-360deg);
   }
 }
+
 @keyframes GFGSat {
   0% {
-    transform: rotate(0deg) translateY(250px) rotate(0deg);
+    transform: rotate(0deg) translateX(330px) rotate(0deg);
   }
-
   100% {
-    transform: rotate(360deg) translateY(250px) rotate(-360deg);
+    transform: rotate(360deg) translateX(330px) rotate(-360deg);
   }
 }
+
 @keyframes GFGUra {
   0% {
-    transform: rotate(0deg) translateY(310px) rotate(0deg);
+    transform: rotate(0deg) translateX(400px) rotate(0deg);
   }
-
   100% {
-    transform: rotate(360deg) translateY(310px) rotate(-360deg);
+    transform: rotate(360deg) translateX(400px) rotate(-360deg);
   }
 }
+
 @keyframes GFGNep {
   0% {
-    transform: rotate(0deg) translateY(340px) rotate(0deg);
+    transform: rotate(0deg) translateX(440px) rotate(0deg);
   }
-
   100% {
-    transform: rotate(360deg) translateY(340px) rotate(-360deg);
+    transform: rotate(360deg) translateX(440px) rotate(-360deg);
   }
 }
 
-body {
-  background-color: black;
-  color: white;
+/* Adjusting each planet's orbit size */
+#Mercury {
+  animation: GFGMerc 7.23s infinite linear;
 }
 
-#solardivider {
-  margin-top: 24%;
+#Venus {
+  animation: GFGVen 18.455s infinite linear;
 }
 
-#solarsystem {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin-top: 24%;
+#Earth {
+  animation: GFGEarth 30s infinite linear;
+}
+
+#Mars {
+  animation: GFGMars 56.424s infinite linear;
+}
+
+#Jupiter {
+  animation: GFGJup 355.8s infinite linear;
+}
+
+#Saturn {
+  animation: GFGSat 883.8s infinite linear;
+}
+
+#Uranus {
+  animation: GFGUra 2520.3s infinite linear;
+}
+
+#Neptune {
+  animation: GFGNep 4943.7s infinite linear;
 }
