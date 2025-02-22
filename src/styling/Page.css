@@ -77,10 +77,11 @@ p {
 .about-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
-  height: 85vh; /* Makes the div take the full viewport height */
+  height: auto;
+  padding-top: 20px;
 }
 
 .about-container img {
@@ -94,6 +95,7 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-top: 30px;
 }
 
 .social-links {

@@ -5,11 +5,11 @@ function About() {
   return (
     <div>
       <div className="about-container">
-        <h1>WELCOME TO SOBOLO</h1>
+        <h1 className="welcome">WELCOME TO SOBOLO</h1>
         <br></br>
         <br></br>
         <img
-          src="./OtherImages/QuentonPlant.webp"
+          src="/OtherImages/QuentonPlant.webp"
           alt="Quenton Barger"
           className="rounded-circle"
         ></img>
